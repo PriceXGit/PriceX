@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'de_valenciaregular';
+    src: url('De Valencia (beta)-webfont.eot');
+    src: url('De Valencia (beta)-webfont.eot?#iefix') format('embedded-opentype'),
+         url('De Valencia (beta)-webfont.woff2') format('woff2'),
+         url('De Valencia (beta)-webfont.woff') format('woff'),
+         url('De Valencia (beta)-webfont.ttf') format('truetype'),
+         url('De Valencia (beta)-webfont.svg#de_valenciaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+font-family: 'Arial Rounded MT Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Arial Rounded MT Bold'), url('ARLRDBD_0.woff') format('woff');
+}

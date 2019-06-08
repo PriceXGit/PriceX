@@ -1,0 +1,59 @@
+*{						/* Абсолютные значения css, для устранения лишних отступов */
+margin:0;
+padding:0;
+}
+h1{
+	font-family: 'de_valenciaregular';
+	font-size: 20pt;
+	font-weight: normal;
+	margin: auto;
+}
+h2{
+	text-align: center;
+	font-family: 'Arial Rounded MT Bold';
+	color: #C1C2C7;
+	margin-top: 2px;
+}
+#background{
+	background: #F7F6FB;
+	display: grid;
+	grid-template-rows: 0.9fr 0.2fr 4fr 0.75fr;
+	height: 450px;
+	width: 350px;
+}
+#header{
+	background:white;
+	display: grid;
+	grid-template-columns: 1fr 2px 1fr 2px 1fr 0.7fr
+}
+#footer{
+	background: white;
+	display: flex
+}
+#setting{
+	display: grid;
+	grid-template-columns: 25px 2px 25px;
+}
+#info{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.btn{
+	height: 45px;
+	width: 45px;
+	display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.btn-small{
+	height: 15px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 13.5px;
+}
+.stc{
+	background: #C1C2C7;
+    height: 20px;
+    width: 2px;
+    margin-top: 25px;
+}
